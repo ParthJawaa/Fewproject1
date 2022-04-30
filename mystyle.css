@@ -94,6 +94,7 @@ h4 {
     display: flex;
     gap: 20px;
     padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .grid-container>div {
@@ -207,8 +208,30 @@ h4 {
     color: rgb(8, 8, 8);
 }
 
+#card:hover {
+    background-color: #151414;
+}
+
 #cardtext {
-    font-size: 40px;
+    font-size: 140%;
     color: rgb(255, 255, 255);
-    text-shadow: 7px 4px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+#black {
+    color: black;
+}
+
+.base {
+    border-radius: 10px;
+    padding: 1px;
+    margin: auto;
+    width: 590px;
+    height: 70px;
+    border: 10px;
+    word-wrap: break-word;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10px;
 }
