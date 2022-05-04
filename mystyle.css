@@ -127,7 +127,6 @@ div.polaroid {
     width: 40%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
     margin-left: 30%;
     background-attachment: fixed;
     background-size: cover;
@@ -148,5 +147,35 @@ div.container {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background: rgba(0, 128, 0, 0.3)
+    background: rgba(55, 134, 187, 0.3)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#logo {
+    width: 200px;
+    height: 45px;
+    color: white;
 }
