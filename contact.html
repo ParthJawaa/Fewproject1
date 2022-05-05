@@ -17,18 +17,40 @@
 <body>
     <ul>
         <li>
-            <a href="#home"><img src="/Users/parthjawa/Dropbox/Mac/Desktop/FrontEndWeb/Fewproject1/assets/home/logo.png" id="logo"></a>
+            <a href="index.html"><img src="/Users/parthjawa/Dropbox/Mac/Desktop/FrontEndWeb/Fewproject1/assets/home/logo.png" id="logo"></a>
         </li>
-        <li><a href="#home">News</a></li>
-        <li><a href="#news">Covid</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">Donate</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="https://www.covid19.act.gov.au/">Covid</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sponsors.html">Donate</a></li>
     </ul>
     <br><br>
     <h3 id="conh3"> Contour 556 is Canberra's biennial public art festival, curated by Neil Hobbs.</h3><br><br>
     <h5 id="conh5"> Contour 556 is the water level of Lake Burley Griffin, which links the event in name as well as in purpose to the history of the central Canberra landscape. The artworks and installations selected for the festival respond in some way to Canberra’s
         history, from 50,000 years to the present day. contour 556 will therefore offer the Canberra, Australian and international community a unique opportunity to engage with and understand the layers of Canberra’s history through art.<br><br>
         <h3 id="conh3"> Contact us</h3>
+        <br><br>
+        <div>
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="lname" name="email" placeholder="Ex. Johnsmith@yahoo.com">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </h5>
 </body>
 

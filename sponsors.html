@@ -19,10 +19,10 @@
         <li>
             <a href="index.html"><img src="/Users/parthjawa/Dropbox/Mac/Desktop/FrontEndWeb/Fewproject1/assets/home/logo.png" id="logo"></a>
         </li>
-        <li><a href="#home">News</a></li>
-        <li><a href="#news">Covid</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">Donate</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="https://www.covid19.act.gov.au/">Covid</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sponsors.html">Donate</a></li>
     </ul>
 
     <h2 id="suph2">Thank you!</h2>
@@ -34,6 +34,31 @@
     <p id="supp">
         If you missed this out there is still time for you to donate through our website.<br><br> More funds = more artists.
     </p>
+
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Ex. Johnsmith@yahoo.com">
+
+            <label for="email">Donation amount</label>
+            <input type="text" id="dam" name="email" placeholder="amount in AUD, ex. $50">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
 </body>
 
