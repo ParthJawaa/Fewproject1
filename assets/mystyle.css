@@ -1,5 +1,5 @@
 #first {
-    background-image: url("assets/home/background.jpg");
+    background-image: url("/Users/parthjawa/Dropbox/Mac/Desktop/FrontEndWeb/Fewproject1/assets/home/background.jpg");
     opacity: 0.97;
     background-repeat: no-repeat;
     background-position: right top;
@@ -36,7 +36,6 @@ li a {
 #bg2 {
     background-size: cover;
     padding: 0%;
-    min-height: 2000px;
     margin: 0%;
     background-image: linear-gradient(to right, rgb(125, 186, 227), rgb(231, 138, 68));
     text-align: left;
@@ -196,6 +195,10 @@ li a:hover {
     margin: 2px 2px;
     margin-top: 0px;
     cursor: pointer;
+}
+
+.button:hover {
+    background-image: linear-gradient(to right, rgb(125, 186, 227), rgb(231, 138, 68));
 }
 
 #desc {
