@@ -265,3 +265,7 @@ body {
     padding: 0px;
     overflow-x: hidden;
 }
+
+.polaroid {
+    width: 100%;
+}
